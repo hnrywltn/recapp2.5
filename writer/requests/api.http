@@ -1,0 +1,25 @@
+### Test
+
+GET http://127.0.0.1:5001/api/questions
+Content-Type: application/json
+
+
+###Delete Question
+DELETE http://127.0.0.1:5001/api/questions/6282c7da07478738b4cff3d1
+Content-Type: application/json
+
+
+###POST Question
+POST http://127.0.0.1:5001/api/questions
+Content-Type: application/json
+
+{
+    "name": "henry",
+    "content": "What's the color of bricks?",
+    "link": "weeeeee"
+}
+
+
+###EDIT Question
+PATCH http://127.0.0.1:5001/api/questions/6282c9ab48414cb356584bf4
+Content-Type: application/json
